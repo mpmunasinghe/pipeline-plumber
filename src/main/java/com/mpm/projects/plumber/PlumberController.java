@@ -16,4 +16,9 @@ public class PlumberController {
 	public Plumb plumber(@RequestParam(value = "name", defaultValue = "World") String name) {
 		return new Plumb(counter.incrementAndGet(), String.format(template, name));
 	}
+
+	@GetMapping("/health")
+	public Status health() {
+		return new Status(200,"Health succesful");
+	}
 }
