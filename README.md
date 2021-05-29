@@ -1,3 +1,4 @@
-# pipeline-plumber
+# pipeline-plumber pipelines clean
 
-This is the main project for pipeline plumber. This plumber fixes pipeline issues when it is needed. Pull
+
+This is the main project for pipeline plumber. When pipeline fails plumber is there to fixit.
